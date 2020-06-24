@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.DB", "DotnetCore
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.DB.Extension", "DotnetCore.DB.Extension\DotnetCore.DB.Extension.csproj", "{5839A89E-59D3-4E6E-9464-0E594CEF421C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.DB.MethodGenerator", "DotnetCore.DB.MethodGenerator\DotnetCore.DB.MethodGenerator.csproj", "{49A60986-7845-4164-8DD8-63AC8CFC2F5E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{5839A89E-59D3-4E6E-9464-0E594CEF421C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5839A89E-59D3-4E6E-9464-0E594CEF421C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5839A89E-59D3-4E6E-9464-0E594CEF421C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49A60986-7845-4164-8DD8-63AC8CFC2F5E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49A60986-7845-4164-8DD8-63AC8CFC2F5E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49A60986-7845-4164-8DD8-63AC8CFC2F5E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49A60986-7845-4164-8DD8-63AC8CFC2F5E}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
