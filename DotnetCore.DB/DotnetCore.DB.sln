@@ -5,6 +5,8 @@ VisualStudioVersion = 16.0.29728.190
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.DB", "DotnetCore.DB\DotnetCore.DB.csproj", "{F497D4E1-3708-4B60-A9DC-DD7C062CC78D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotnetCore.DB.Extension", "DotnetCore.DB.Extension\DotnetCore.DB.Extension.csproj", "{5839A89E-59D3-4E6E-9464-0E594CEF421C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{F497D4E1-3708-4B60-A9DC-DD7C062CC78D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F497D4E1-3708-4B60-A9DC-DD7C062CC78D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F497D4E1-3708-4B60-A9DC-DD7C062CC78D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5839A89E-59D3-4E6E-9464-0E594CEF421C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5839A89E-59D3-4E6E-9464-0E594CEF421C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5839A89E-59D3-4E6E-9464-0E594CEF421C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5839A89E-59D3-4E6E-9464-0E594CEF421C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
