@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.SqlClient;
 
-namespace VS.DotNetCore.DB
+namespace DotnetCore.DB
 {
     public class ExecuteQuery
     {

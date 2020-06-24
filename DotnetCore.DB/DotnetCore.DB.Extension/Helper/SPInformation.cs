@@ -3,7 +3,6 @@ using DotNetCore.DB.Models;
 using System;
 using System.Collections.Generic;
 using System.Text;
-using VS.DotNetCore.DB;
 
 namespace DotnetCore.DB.Extension.Helper
 {

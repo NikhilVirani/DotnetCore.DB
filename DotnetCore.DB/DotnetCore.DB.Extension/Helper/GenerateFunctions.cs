@@ -1,11 +1,10 @@
-﻿using DotNetCore.DB;
+﻿using DotnetCore.Extension.Helper;
 using System;
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
 using System.Linq;
 using System.Text;
-using VS.DotNetCore.DB.Extension.Helper;
 
 namespace DotnetCore.DB.Extension.Helper
 {

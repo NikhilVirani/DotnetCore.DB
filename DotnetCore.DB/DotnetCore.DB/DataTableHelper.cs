@@ -4,7 +4,7 @@ using System.Data;
 using System.Reflection;
 using System.Text;
 
-namespace VS.DotNetCore.DB
+namespace DotnetCore.DB
 {
     public static class DataTableHelper
     {

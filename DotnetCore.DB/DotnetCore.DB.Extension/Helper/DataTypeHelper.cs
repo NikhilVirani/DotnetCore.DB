@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace VS.DotNetCore.DB.Extension.Helper
+namespace DotnetCore.Extension.Helper
 {
     public static class DataTypeHelper
     {
