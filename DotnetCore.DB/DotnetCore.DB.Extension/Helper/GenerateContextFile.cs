@@ -15,8 +15,7 @@ namespace DotnetCore.DB.Extension.Helper
             {
                 string temp = string.Empty;
 
-                temp += "using Microsoft.EntityFrameworkCore;";
-                temp += nLTab() + "using System;";
+                temp += "using System;";
                 temp += nLTab() + "using System.Collections.Generic;";
                 temp += nLTab() + "using DotNetCore.DB;";
                 temp += nLTab() + "using System.Data.SqlClient;";
@@ -25,7 +24,7 @@ namespace DotnetCore.DB.Extension.Helper
                 temp += nLTab() + "namespace " + NamespaceOfContextFile;
                 temp += nLTab() + "{";
 
-                temp += nLTab(1) + "public partial class " + ContextClassName + " : DbContext";
+                temp += nLTab(1) + "public partial class " + ContextClassName;
                 temp += nLTab(1) + "{";
                 temp += nLTab(2) + "private readonly ExecuteFunction executeFunction;";
                 temp += nLTab(0);

@@ -12,8 +12,8 @@ namespace DotnetCore.DB.MethodGenerator
             string ConnectionString = @"--Your DB Connection String--";
             string ContextBasePath = @"--Directory of where context file creation--";
             string ContextClassName = "--Context Class name--";
-            string ContextFilePath = Path.Combine(ContextBasePath, ContextClassName + ".cs");
             string NamespaceOfContextFile = "--Namespace Of Context Class--";
+            string ContextFilePath = Path.Combine(ContextBasePath, ContextClassName + ".cs");
 
             SPInformation storedProcedure = new SPInformation(ConnectionString);
             var list = storedProcedure.GetSPList().ToList();
