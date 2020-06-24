@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.IO;
 using System.Text;
 
-namespace DotNetCore.DB.Helper
+namespace DotnetCore.DB.Extension.Helper
 {
     public static class GenerateContextFile
     {

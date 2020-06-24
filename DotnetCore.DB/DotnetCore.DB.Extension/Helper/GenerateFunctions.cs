@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using VS.DotNetCore.DB.Extension.Helper;
 
-namespace DotNetCore.DB.Helper
+namespace DotnetCore.DB.Extension.Helper
 {
     public static class GenerateFunctions
     {

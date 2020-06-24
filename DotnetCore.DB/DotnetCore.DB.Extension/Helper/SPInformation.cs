@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Text;
 using VS.DotNetCore.DB;
 
-namespace DotNetCore.DB.Helper
+namespace DotnetCore.DB.Extension.Helper
 {
     public class SPInformation
     {
