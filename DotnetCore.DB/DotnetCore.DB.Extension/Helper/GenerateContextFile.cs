@@ -20,10 +20,7 @@ namespace DotnetCore.DB.Extension.Helper
                 temp += nLTab() + "using System.Collections.Generic;";
                 temp += nLTab() + "using DotNetCore.DB;";
                 temp += nLTab() + "using System.Data.SqlClient;";
-                if (!string.IsNullOrWhiteSpace(NamespaceOfContextFile))
-                {
-                    temp += nLTab() + "using " + NamespaceOfContextFile + ".Models;";
-                }
+                
                 temp += nLTab(0);
                 temp += nLTab() + "namespace " + NamespaceOfContextFile;
                 temp += nLTab() + "{";

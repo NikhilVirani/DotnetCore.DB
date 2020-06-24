@@ -30,6 +30,17 @@ namespace DotnetCore.DB.Extension.Helper
             }
             else if (spResult == 2)
             {
+                if (!string.IsNullOrWhiteSpace(NamespaceOfContextFile))
+                {
+                    var tempRead = File.ReadAllText(ContextFilePath);
+                    var temp = "using " + NamespaceOfContextFile + ".Models;";
+                    if (tempRead.IndexOf(temp) == -1)
+                    {
+                        temp += NLTab() + tempRead;
+                        File.WriteAllText(ContextFilePath, temp);
+                    }
+                }
+
                 newFunction += "List<" + SPName + "_Result>";
             }
             #endregion
