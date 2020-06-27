@@ -46,6 +46,9 @@ namespace DotnetCore.Extension.Helper
                 return "TimeSpan" + (IsNullable ? "?" : "");
             else if (DBType.IndexOf("numeric") > -1)
                 return "Decimal" + (IsNullable ? "?" : "");
+            else if (DBType.IndexOf("bigint") > -1)
+                return "Int64" + (IsNullable ? "?" : "");
+
             else
                 throw new Exception("DbType of this '" + DBType + "' is unknown for me");
         }
